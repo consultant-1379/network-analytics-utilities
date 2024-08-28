@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<DataCollectorSet>
+    <Status>0</Status>
+    <Duration>0</Duration>
+    <Description></Description>
+    <DescriptionUnresolved></DescriptionUnresolved>
+    <DisplayName>Ericsson_Network_Analytics_Server_Data_Collector_Set</DisplayName>
+    <DisplayNameUnresolved></DisplayNameUnresolved>
+    <SchedulesEnabled>-1</SchedulesEnabled>
+    <LatestOutputLocation></LatestOutputLocation>
+    <Name>Network_Analytics_Server_Data_Collector_Set</Name>
+    <OutputLocation>C:\PerfLogs\NetAnSystemLogs</OutputLocation>
+    <RootPath>C:\PerfLogs\NetAnSystemLogs</RootPath>
+    <Segment>0</Segment>
+    <SegmentMaxDuration>0</SegmentMaxDuration>
+    <SegmentMaxSize>0</SegmentMaxSize>
+    <SerialNumber>3</SerialNumber>
+    <Server></Server>
+    <Subdirectory></Subdirectory>
+    <SubdirectoryFormat></SubdirectoryFormat>
+    <SubdirectoryFormatPattern></SubdirectoryFormatPattern>
+    <Task></Task>
+    <TaskRunAsSelf>0</TaskRunAsSelf>
+    <TaskArguments></TaskArguments>
+    <TaskUserTextArguments></TaskUserTextArguments>
+    <UserAccount>SYSTEM</UserAccount>
+    <Security>O:BAG:S-1-5-21-3073630341-3559467003-2967880608-513D:AI(A;;FA;;;SY)(A;;FA;;;BA)(A;;FR;;;LU)(A;;0x1301ff;;;S-1-5-80-2661322625-712705077-2999183737-3043590567-590698655)(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;0x1200ab;;;LU)(A;ID;FR;;;AU)(A;ID;FR;;;LS)(A;ID;FR;;;NS)</Security>
+    <StopOnCompletion>0</StopOnCompletion>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Memory</Name>
+        <FileName>Memory</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>        
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\Memory\% Committed Bytes In Use</Counter>
+        <Counter>\Memory\Available Bytes</Counter>
+        <Counter>\Memory\Available KBytes</Counter>
+        <Counter>\Memory\Available MBytes</Counter>
+        <Counter>\Memory\Cache Bytes</Counter>
+        <Counter>\Memory\Cache Bytes Peak</Counter>
+        <Counter>\Memory\Cache Faults/sec</Counter>
+        <Counter>\Memory\Commit Limit</Counter>
+        <Counter>\Memory\Committed Bytes</Counter>
+        <Counter>\Memory\Demand Zero Faults/sec</Counter>
+        <Counter>\Memory\Free &amp; Zero Page List Bytes</Counter>
+        <Counter>\Memory\Free System Page Table Entries</Counter>
+        <Counter>\Memory\Modified Page List Bytes</Counter>
+        <Counter>\Memory\Page Faults/sec</Counter>
+        <Counter>\Memory\Page Reads/sec</Counter>
+        <Counter>\Memory\Page Writes/sec</Counter>
+        <Counter>\Memory\Pages Input/sec</Counter>
+        <Counter>\Memory\Pages Output/sec</Counter>
+        <Counter>\Memory\Pages/sec</Counter>
+        <Counter>\Memory\Pool Nonpaged Allocs</Counter>
+        <Counter>\Memory\Pool Nonpaged Bytes</Counter>
+        <Counter>\Memory\Pool Paged Allocs</Counter>
+        <Counter>\Memory\Pool Paged Bytes</Counter>
+        <Counter>\Memory\Pool Paged Resident Bytes</Counter>
+        <Counter>\Memory\Standby Cache Core Bytes</Counter>
+        <Counter>\Memory\Standby Cache Normal Priority Bytes</Counter>
+        <Counter>\Memory\Standby Cache Reserve Bytes</Counter>
+        <Counter>\Memory\System Cache Resident Bytes</Counter>
+        <Counter>\Memory\System Code Resident Bytes</Counter>
+        <Counter>\Memory\System Code Total Bytes</Counter>
+        <Counter>\Memory\System Driver Resident Bytes</Counter>
+        <Counter>\Memory\System Driver Total Bytes</Counter>
+        <Counter>\Memory\Transition Faults/sec</Counter>
+        <Counter>\Memory\Transition Pages RePurposed/sec</Counter>
+        <Counter>\Memory\Write Copies/sec</Counter>
+        <CounterDisplayName>\Memory\% Committed Bytes In Use</CounterDisplayName>
+        <CounterDisplayName>\Memory\Available Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Available KBytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Available MBytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Cache Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Cache Bytes Peak</CounterDisplayName>
+        <CounterDisplayName>\Memory\Cache Faults/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Commit Limit</CounterDisplayName>
+        <CounterDisplayName>\Memory\Committed Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Demand Zero Faults/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Free &amp; Zero Page List Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Free System Page Table Entries</CounterDisplayName>
+        <CounterDisplayName>\Memory\Modified Page List Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Page Faults/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Page Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Page Writes/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Pages Input/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Pages Output/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Pages/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Pool Nonpaged Allocs</CounterDisplayName>
+        <CounterDisplayName>\Memory\Pool Nonpaged Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Pool Paged Allocs</CounterDisplayName>
+        <CounterDisplayName>\Memory\Pool Paged Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Pool Paged Resident Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Standby Cache Core Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Standby Cache Normal Priority Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Standby Cache Reserve Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\System Cache Resident Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\System Code Resident Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\System Code Total Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\System Driver Resident Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\System Driver Total Bytes</CounterDisplayName>
+        <CounterDisplayName>\Memory\Transition Faults/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Transition Pages RePurposed/sec</CounterDisplayName>
+        <CounterDisplayName>\Memory\Write Copies/sec</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Processor</Name>
+        <FileName>Processor</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>            
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\Processor(_Total)\% C1 Time</Counter>
+        <Counter>\Processor(_Total)\% C2 Time</Counter>
+        <Counter>\Processor(_Total)\% C3 Time</Counter>
+        <Counter>\Processor(_Total)\% DPC Time</Counter>
+        <Counter>\Processor(_Total)\% Idle Time</Counter>
+        <Counter>\Processor(_Total)\% Interrupt Time</Counter>
+        <Counter>\Processor(_Total)\% Privileged Time</Counter>
+        <Counter>\Processor(_Total)\% Processor Time</Counter>
+        <Counter>\Processor(_Total)\% User Time</Counter>
+        <Counter>\Processor(_Total)\C1 Transitions/sec</Counter>
+        <Counter>\Processor(_Total)\C2 Transitions/sec</Counter>
+        <Counter>\Processor(_Total)\C3 Transitions/sec</Counter>
+        <Counter>\Processor(_Total)\DPC Rate</Counter>
+        <Counter>\Processor(_Total)\DPCs Queued/sec</Counter>
+        <Counter>\Processor(_Total)\Interrupts/sec</Counter>
+        <Counter>\Processor Information(_Total)\% of Maximum Frequency</Counter>
+        <Counter>\Processor Information(_Total)\% Priority Time</Counter>
+        <Counter>\Processor Information(_Total)\Parking Status</Counter>
+        <Counter>\Processor Information(_Total)\Processor Frequency</Counter>
+        <Counter>\Processor Information(_Total)\Processor State Flags</Counter>
+        <CounterDisplayName>\Processor(_Total)\% C1 Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\% C2 Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\% C3 Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\% DPC Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\% Idle Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\% Interrupt Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\% Privileged Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\% Processor Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\% User Time</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\C1 Transitions/sec</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\C2 Transitions/sec</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\C3 Transitions/sec</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\DPC Rate</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\DPCs Queued/sec</CounterDisplayName>
+        <CounterDisplayName>\Processor(_Total)\Interrupts/sec</CounterDisplayName>
+        <CounterDisplayName>\Processor Information(_Total)\% of Maximum Frequency</CounterDisplayName>
+        <CounterDisplayName>\Processor Information(_Total)\% Priority Time</CounterDisplayName>
+        <CounterDisplayName>\Processor Information(_Total)\Parking Status</CounterDisplayName>
+        <CounterDisplayName>\Processor Information(_Total)\Processor Frequency</CounterDisplayName>
+        <CounterDisplayName>\Processor Information(_Total)\Processor State Flags</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Network_Interface</Name>
+        <FileName>Network_Interface</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>    
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\Network Interface(*)\Bytes Received/sec</Counter>
+        <Counter>\Network Interface(*)\Bytes Sent/sec</Counter>
+        <Counter>\Network Interface(*)\Bytes Total/sec</Counter>
+        <Counter>\Network Interface(*)\Current Bandwidth</Counter>
+        <Counter>\Network Interface(*)\Offloaded Connections</Counter>
+        <Counter>\Network Interface(*)\Output Queue Length</Counter>
+        <Counter>\Network Interface(*)\Packets Outbound Discarded</Counter>
+        <Counter>\Network Interface(*)\Packets Outbound Errors</Counter>
+        <Counter>\Network Interface(*)\Packets Received Discarded</Counter>
+        <Counter>\Network Interface(*)\Packets Received Errors</Counter>
+        <Counter>\Network Interface(*)\Packets Received Non-Unicast/sec</Counter>
+        <Counter>\Network Interface(*)\Packets Received Unknown</Counter>
+        <Counter>\Network Interface(*)\Packets Received/sec</Counter>
+        <Counter>\Network Interface(*)\Packets Sent Non-Unicast/sec</Counter>
+        <Counter>\Network Interface(*)\Packets Sent/sec</Counter>
+        <Counter>\Network Interface(*)\Packets/sec</Counter>
+        <CounterDisplayName>\Network Interface(*)\Bytes Received/sec</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Bytes Sent/sec</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Bytes Total/sec</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Current Bandwidth</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Offloaded Connections</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Output Queue Length</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Outbound Discarded</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Outbound Errors</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Received Discarded</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Received Errors</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Received Non-Unicast/sec</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Received Unknown</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Received/sec</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Sent Non-Unicast/sec</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets Sent/sec</CounterDisplayName>
+        <CounterDisplayName>\Network Interface(*)\Packets/sec</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Memory_Related_Counters</Name>
+        <FileName>Memory_Related_Counters</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>    
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\Cache\Async Copy Reads/sec</Counter>
+        <Counter>\Cache\Async Data Maps/sec</Counter>
+        <Counter>\Cache\Async Fast Reads/sec</Counter>
+        <Counter>\Cache\Async MDL Reads/sec</Counter>
+        <Counter>\Cache\Async Pin Reads/sec</Counter>
+        <Counter>\Cache\Copy Read Hits %</Counter>
+        <Counter>\Cache\Copy Reads/sec</Counter>
+        <Counter>\Cache\Data Flush Pages/sec</Counter>
+        <Counter>\Cache\Data Flushes/sec</Counter>
+        <Counter>\Cache\Data Map Hits %</Counter>
+        <Counter>\Cache\Data Map Pins/sec</Counter>
+        <Counter>\Cache\Data Maps/sec</Counter>
+        <Counter>\Cache\Dirty Page Threshold</Counter>
+        <Counter>\Cache\Dirty Pages</Counter>
+        <Counter>\Cache\Fast Read Not Possibles/sec</Counter>
+        <Counter>\Cache\Fast Read Resource Misses/sec</Counter>
+        <Counter>\Cache\Fast Reads/sec</Counter>
+        <Counter>\Cache\Lazy Write Flushes/sec</Counter>
+        <Counter>\Cache\Lazy Write Pages/sec</Counter>
+        <Counter>\Cache\MDL Read Hits %</Counter>
+        <Counter>\Cache\MDL Reads/sec</Counter>
+        <Counter>\Cache\Pin Read Hits %</Counter>
+        <Counter>\Cache\Pin Reads/sec</Counter>
+        <Counter>\Cache\Read Aheads/sec</Counter>
+        <Counter>\Cache\Sync Copy Reads/sec</Counter>
+        <Counter>\Cache\Sync Data Maps/sec</Counter>
+        <Counter>\Cache\Sync Fast Reads/sec</Counter>
+        <Counter>\Cache\Sync MDL Reads/sec</Counter>
+        <Counter>\Cache\Sync Pin Reads/sec</Counter>
+        <Counter>\Objects\Events</Counter>
+        <Counter>\Objects\Processes</Counter>
+        <Counter>\Objects\Sections</Counter>
+        <Counter>\Objects\Semaphores</Counter>
+        <Counter>\Objects\Threads</Counter>
+        <Counter>\Paging File\% Usage</Counter>
+        <Counter>\Paging File(\??\C:\pagefile.sys)\% Usage Peak</Counter>
+        <Counter>\Process\% Privileged Time</Counter>
+        <Counter>\Process(_Total)\% Processor Time</Counter>
+        <Counter>\Process(_Total)\% User Time</Counter>
+        <Counter>\Process(_Total)\Creating Process ID</Counter>
+        <Counter>\Process(_Total)\Elapsed Time</Counter>
+        <Counter>\Process(_Total)\Handle Count</Counter>
+        <Counter>\Process(_Total)\ID Process</Counter>
+        <Counter>\Process(_Total)\IO Data Bytes/sec</Counter>
+        <Counter>\Process(_Total)\IO Data Operations/sec</Counter>
+        <Counter>\Process(_Total)\IO Other Bytes/sec</Counter>
+        <Counter>\Process(_Total)\IO Other Operations/sec</Counter>
+        <Counter>\Process(_Total)\IO Read Bytes/sec</Counter>
+        <Counter>\Process(_Total)\IO Read Operations/sec</Counter>
+        <Counter>\Process(_Total)\IO Write Bytes/sec</Counter>
+        <Counter>\Process(_Total)\IO Write Operations/sec</Counter>
+        <Counter>\Process(_Total)\Page Faults/sec</Counter>
+        <Counter>\Process(_Total)\Page File Bytes</Counter>
+        <Counter>\Process(_Total)\Page File Bytes Peak</Counter>
+        <Counter>\Process(_Total)\Pool Nonpaged Bytes</Counter>
+        <Counter>\Process(_Total)\Pool Paged Bytes</Counter>
+        <Counter>\Process(_Total)\Priority Base</Counter>
+        <Counter>\Process(_Total)\Private Bytes</Counter>
+        <Counter>\Process(_Total)\Thread Count</Counter>
+        <Counter>\Process(_Total)\Virtual Bytes</Counter>
+        <Counter>\Process(_Total)\Virtual Bytes Peak</Counter>
+        <Counter>\Process(_Total)\Working Set</Counter>
+        <Counter>\Process(_Total)\Working Set - Private</Counter>
+        <Counter>\Process(_Total)\Working Set Peak</Counter>
+        <CounterDisplayName>\Cache\Async Copy Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Async Data Maps/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Async Fast Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Async MDL Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Async Pin Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Copy Read Hits %</CounterDisplayName>
+        <CounterDisplayName>\Cache\Copy Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Data Flush Pages/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Data Flushes/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Data Map Hits %</CounterDisplayName>
+        <CounterDisplayName>\Cache\Data Map Pins/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Data Maps/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Dirty Page Threshold</CounterDisplayName>
+        <CounterDisplayName>\Cache\Dirty Pages</CounterDisplayName>
+        <CounterDisplayName>\Cache\Fast Read Not Possibles/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Fast Read Resource Misses/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Fast Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Lazy Write Flushes/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Lazy Write Pages/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\MDL Read Hits %</CounterDisplayName>
+        <CounterDisplayName>\Cache\MDL Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Pin Read Hits %</CounterDisplayName>
+        <CounterDisplayName>\Cache\Pin Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Read Aheads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Sync Copy Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Sync Data Maps/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Sync Fast Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Sync MDL Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Cache\Sync Pin Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\Objects\Events</CounterDisplayName>
+        <CounterDisplayName>\Objects\Processes</CounterDisplayName>
+        <CounterDisplayName>\Objects\Sections</CounterDisplayName>
+        <CounterDisplayName>\Objects\Semaphores</CounterDisplayName>
+        <CounterDisplayName>\Objects\Threads</CounterDisplayName>
+        <CounterDisplayName>\Paging File\% Usage</CounterDisplayName>
+        <CounterDisplayName>\Paging File(\??\C:\pagefile.sys)\% Usage Peak</CounterDisplayName>
+        <CounterDisplayName>\Process\% Privileged Time</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\% Processor Time</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\% User Time</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Creating Process ID</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Elapsed Time</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Handle Count</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\ID Process</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\IO Data Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\IO Data Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\IO Other Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\IO Other Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\IO Read Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\IO Read Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\IO Write Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\IO Write Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Page Faults/sec</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Page File Bytes</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Page File Bytes Peak</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Pool Nonpaged Bytes</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Pool Paged Bytes</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Priority Base</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Private Bytes</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Thread Count</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Virtual Bytes</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Virtual Bytes Peak</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Working Set</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Working Set - Private</CounterDisplayName>
+        <CounterDisplayName>\Process(_Total)\Working Set Peak</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_System</Name>
+        <FileName>System</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\System\% Registry Quota In Use</Counter>
+        <Counter>\System\Alignment Fixups/sec</Counter>
+        <Counter>\System\Context Switches/sec</Counter>
+        <Counter>\System\Exception Dispatches/sec</Counter>
+        <Counter>\System\File Control Bytes/sec</Counter>
+        <Counter>\System\File Control Operations/sec</Counter>
+        <Counter>\System\File Data Operations/sec</Counter>
+        <Counter>\System\File Read Bytes/sec</Counter>
+        <Counter>\System\File Read Operations/sec</Counter>
+        <Counter>\System\File Write Bytes/sec</Counter>
+        <Counter>\System\File Write Operations/sec</Counter>
+        <Counter>\System\Floating Emulations/sec</Counter>
+        <Counter>\System\Processes</Counter>
+        <Counter>\System\Processor Queue Length</Counter>
+        <Counter>\System\System Calls/sec</Counter>
+        <Counter>\System\System Up Time</Counter>
+        <Counter>\System\Threads</Counter>
+        <CounterDisplayName>\System\% Registry Quota In Use</CounterDisplayName>
+        <CounterDisplayName>\System\Alignment Fixups/sec</CounterDisplayName>
+        <CounterDisplayName>\System\Context Switches/sec</CounterDisplayName>
+        <CounterDisplayName>\System\Exception Dispatches/sec</CounterDisplayName>
+        <CounterDisplayName>\System\File Control Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\System\File Control Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\System\File Data Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\System\File Read Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\System\File Read Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\System\File Write Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\System\File Write Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\System\Floating Emulations/sec</CounterDisplayName>
+        <CounterDisplayName>\System\Processes</CounterDisplayName>
+        <CounterDisplayName>\System\Processor Queue Length</CounterDisplayName>
+        <CounterDisplayName>\System\System Calls/sec</CounterDisplayName>
+        <CounterDisplayName>\System\System Up Time</CounterDisplayName>
+        <CounterDisplayName>\System\Threads</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Logical_Disk</Name>
+        <FileName>Logical_Disk</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>    
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\LogicalDisk(_Total)\% Disk Read Time</Counter>
+        <Counter>\LogicalDisk(_Total)\% Disk Time</Counter>
+        <Counter>\LogicalDisk(_Total)\% Disk Write Time</Counter>
+        <Counter>\LogicalDisk(_Total)\% Free Space</Counter>
+        <Counter>\LogicalDisk(_Total)\% Idle Time</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk Bytes/Read</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk Bytes/Transfer</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk Bytes/Write</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk Queue Length</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk Read Queue Length</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk sec/Read</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk sec/Transfer</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk sec/Write</Counter>
+        <Counter>\LogicalDisk(_Total)\Avg. Disk Write Queue Length</Counter>
+        <Counter>\LogicalDisk(_Total)\Current Disk Queue Length</Counter>
+        <Counter>\LogicalDisk(_Total)\Disk Bytes/sec</Counter>
+        <Counter>\LogicalDisk(_Total)\Disk Read Bytes/sec</Counter>
+        <Counter>\LogicalDisk(_Total)\Disk Reads/sec</Counter>
+        <Counter>\LogicalDisk(_Total)\Disk Transfers/sec</Counter>
+        <Counter>\LogicalDisk(_Total)\Disk Write Bytes/sec</Counter>
+        <Counter>\LogicalDisk(_Total)\Disk Writes/sec</Counter>
+        <Counter>\LogicalDisk(_Total)\Free Megabytes</Counter>
+        <Counter>\LogicalDisk(_Total)\Split IO/Sec</Counter>
+        <CounterDisplayName>\LogicalDisk(_Total)\% Disk Read Time</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\% Disk Time</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\% Disk Write Time</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\% Free Space</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\% Idle Time</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk Bytes/Read</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk Bytes/Transfer</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk Bytes/Write</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk Queue Length</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk Read Queue Length</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk sec/Read</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk sec/Transfer</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk sec/Write</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Avg. Disk Write Queue Length</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Current Disk Queue Length</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Disk Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Disk Read Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Disk Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Disk Transfers/sec</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Disk Write Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Disk Writes/sec</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Free Megabytes</CounterDisplayName>
+        <CounterDisplayName>\LogicalDisk(_Total)\Split IO/Sec</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_NBT_Connections</Name>
+        <FileName>NBT_Connections</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>    
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\NBT Connection(*)\Bytes Received/sec</Counter>
+        <Counter>\NBT Connection(*)\Bytes Sent/sec</Counter>
+        <Counter>\NBT Connection(*)\Bytes Total/sec</Counter>
+        <CounterDisplayName>\NBT Connection(*)\Bytes Received/sec</CounterDisplayName>
+        <CounterDisplayName>\NBT Connection(*)\Bytes Sent/sec</CounterDisplayName>
+        <CounterDisplayName>\NBT Connection(*)\Bytes Total/sec</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Physical_Disk</Name>
+        <FileName>Physical_Disk</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\PhysicalDisk(_Total)\% Disk Read Time</Counter>
+        <Counter>\PhysicalDisk(_Total)\% Disk Time</Counter>
+        <Counter>\PhysicalDisk(_Total)\% Disk Write Time</Counter>
+        <Counter>\PhysicalDisk(_Total)\% Idle Time</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk Bytes/Read</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk Bytes/Transfer</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk Bytes/Write</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk Queue Length</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk Read Queue Length</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk sec/Read</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk sec/Transfer</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk sec/Write</Counter>
+        <Counter>\PhysicalDisk(_Total)\Avg. Disk Write Queue Length</Counter>
+        <Counter>\PhysicalDisk(_Total)\Current Disk Queue Length</Counter>
+        <Counter>\PhysicalDisk(_Total)\Disk Bytes/sec</Counter>
+        <Counter>\PhysicalDisk(_Total)\Disk Read Bytes/sec</Counter>
+        <Counter>\PhysicalDisk(_Total)\Disk Reads/sec</Counter>
+        <Counter>\PhysicalDisk(_Total)\Disk Transfers/sec</Counter>
+        <Counter>\PhysicalDisk(_Total)\Disk Write Bytes/sec</Counter>
+        <Counter>\PhysicalDisk(_Total)\Disk Writes/sec</Counter>
+        <Counter>\PhysicalDisk(_Total)\Split IO/Sec</Counter>
+        <CounterDisplayName>\PhysicalDisk(_Total)\% Disk Read Time</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\% Disk Time</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\% Disk Write Time</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\% Idle Time</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk Bytes/Read</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk Bytes/Transfer</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk Bytes/Write</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk Queue Length</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk Read Queue Length</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk sec/Read</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk sec/Transfer</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk sec/Write</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Avg. Disk Write Queue Length</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Current Disk Queue Length</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Disk Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Disk Read Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Disk Reads/sec</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Disk Transfers/sec</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Disk Write Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Disk Writes/sec</CounterDisplayName>
+        <CounterDisplayName>\PhysicalDisk(_Total)\Split IO/Sec</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Redirector</Name>
+        <FileName>Redirector</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>    
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\Redirector\Bytes Received/sec</Counter>
+        <Counter>\Redirector\Bytes Total/sec</Counter>
+        <Counter>\Redirector\Bytes Transmitted/sec</Counter>
+        <Counter>\Redirector\Connects Core</Counter>
+        <Counter>\Redirector\Connects Lan Manager 2.0</Counter>
+        <Counter>\Redirector\Connects Lan Manager 2.1</Counter>
+        <Counter>\Redirector\Connects Windows NT</Counter>
+        <Counter>\Redirector\Current Commands</Counter>
+        <Counter>\Redirector\File Data Operations/sec</Counter>
+        <Counter>\Redirector\File Read Operations/sec</Counter>
+        <Counter>\Redirector\File Write Operations/sec</Counter>
+        <Counter>\Redirector\Network Errors/sec</Counter>
+        <Counter>\Redirector\Packets Received/sec</Counter>
+        <Counter>\Redirector\Packets Transmitted/sec</Counter>
+        <Counter>\Redirector\Packets/sec</Counter>
+        <Counter>\Redirector\Read Bytes Cache/sec</Counter>
+        <Counter>\Redirector\Read Bytes Network/sec</Counter>
+        <Counter>\Redirector\Read Bytes Non-Paging/sec</Counter>
+        <Counter>\Redirector\Read Bytes Paging/sec</Counter>
+        <Counter>\Redirector\Read Operations Random/sec</Counter>
+        <Counter>\Redirector\Read Packets Small/sec</Counter>
+        <Counter>\Redirector\Read Packets/sec</Counter>
+        <Counter>\Redirector\Reads Denied/sec</Counter>
+        <Counter>\Redirector\Reads Large/sec</Counter>
+        <Counter>\Redirector\Server Disconnects</Counter>
+        <Counter>\Redirector\Server Reconnects</Counter>
+        <Counter>\Redirector\Server Sessions</Counter>
+        <Counter>\Redirector\Server Sessions Hung</Counter>
+        <Counter>\Redirector\Write Bytes Cache/sec</Counter>
+        <Counter>\Redirector\Write Bytes Network/sec</Counter>
+        <Counter>\Redirector\Write Bytes Non-Paging/sec</Counter>
+        <Counter>\Redirector\Write Bytes Paging/sec</Counter>
+        <Counter>\Redirector\Write Operations Random/sec</Counter>
+        <Counter>\Redirector\Write Packets Small/sec</Counter>
+        <Counter>\Redirector\Write Packets/sec</Counter>
+        <Counter>\Redirector\Writes Denied/sec</Counter>
+        <Counter>\Redirector\Writes Large/sec</Counter>
+        <CounterDisplayName>\Redirector\Bytes Received/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Bytes Total/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Bytes Transmitted/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Connects Core</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Connects Lan Manager 2.0</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Connects Lan Manager 2.1</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Connects Windows NT</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Current Commands</CounterDisplayName>
+        <CounterDisplayName>\Redirector\File Data Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\File Read Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\File Write Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Network Errors/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Packets Received/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Packets Transmitted/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Packets/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Read Bytes Cache/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Read Bytes Network/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Read Bytes Non-Paging/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Read Bytes Paging/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Read Operations Random/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Read Packets Small/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Read Packets/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Reads Denied/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Reads Large/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Server Disconnects</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Server Reconnects</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Server Sessions</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Server Sessions Hung</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Write Bytes Cache/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Write Bytes Network/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Write Bytes Non-Paging/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Write Bytes Paging/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Write Operations Random/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Write Packets Small/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Write Packets/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Writes Denied/sec</CounterDisplayName>
+        <CounterDisplayName>\Redirector\Writes Large/sec</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Server</Name>
+        <FileName>Server</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation></LatestOutputLocation>
+        <DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\Server\Blocking Requests Rejected</Counter>
+        <Counter>\Server\Bytes Received/sec</Counter>
+        <Counter>\Server\Bytes Total/sec</Counter>
+        <Counter>\Server\Bytes Transmitted/sec</Counter>
+        <Counter>\Server\Context Blocks Queued/sec</Counter>
+        <Counter>\Server\Errors Access Permissions</Counter>
+        <Counter>\Server\Errors Granted Access</Counter>
+        <Counter>\Server\Errors Logon</Counter>
+        <Counter>\Server\Errors System</Counter>
+        <Counter>\Server\File Directory Searches</Counter>
+        <Counter>\Server\Files Open</Counter>
+        <Counter>\Server\Files Opened Total</Counter>
+        <Counter>\Server\Logon Total</Counter>
+        <Counter>\Server\Logon/sec</Counter>
+        <Counter>\Server\Pool Nonpaged Bytes</Counter>
+        <Counter>\Server\Pool Nonpaged Failures</Counter>
+        <Counter>\Server\Pool Nonpaged Peak</Counter>
+        <Counter>\Server\Pool Paged Bytes</Counter>
+        <Counter>\Server\Pool Paged Failures</Counter>
+        <Counter>\Server\Pool Paged Peak</Counter>
+        <Counter>\Server\Reconnected Durable Handles</Counter>
+        <Counter>\Server\Reconnected Resilient Handles</Counter>
+        <Counter>\Server\Server Sessions</Counter>
+        <Counter>\Server\Sessions Errored Out</Counter>
+        <Counter>\Server\Sessions Forced Off</Counter>
+        <Counter>\Server\Sessions Logged Off</Counter>
+        <Counter>\Server\Sessions Timed Out</Counter>
+        <Counter>\Server\SMB BranchCache Hash Bytes Sent</Counter>
+        <Counter>\Server\SMB BranchCache Hash Generation Requests</Counter>
+        <Counter>\Server\SMB BranchCache Hash Header Requests</Counter>
+        <Counter>\Server\SMB BranchCache Hash Requests Received</Counter>
+        <Counter>\Server\SMB BranchCache Hash Responses Sent</Counter>
+        <Counter>\Server\Total Durable Handles</Counter>
+        <Counter>\Server\Total Resilient Handles</Counter>
+        <Counter>\Server\Work Item Shortages</Counter>
+        <CounterDisplayName>\Server\Blocking Requests Rejected</CounterDisplayName>
+        <CounterDisplayName>\Server\Bytes Received/sec</CounterDisplayName>
+        <CounterDisplayName>\Server\Bytes Total/sec</CounterDisplayName>
+        <CounterDisplayName>\Server\Bytes Transmitted/sec</CounterDisplayName>
+        <CounterDisplayName>\Server\Context Blocks Queued/sec</CounterDisplayName>
+        <CounterDisplayName>\Server\Errors Access Permissions</CounterDisplayName>
+        <CounterDisplayName>\Server\Errors Granted Access</CounterDisplayName>
+        <CounterDisplayName>\Server\Errors Logon</CounterDisplayName>
+        <CounterDisplayName>\Server\Errors System</CounterDisplayName>
+        <CounterDisplayName>\Server\File Directory Searches</CounterDisplayName>
+        <CounterDisplayName>\Server\Files Open</CounterDisplayName>
+        <CounterDisplayName>\Server\Files Opened Total</CounterDisplayName>
+        <CounterDisplayName>\Server\Logon Total</CounterDisplayName>
+        <CounterDisplayName>\Server\Logon/sec</CounterDisplayName>
+        <CounterDisplayName>\Server\Pool Nonpaged Bytes</CounterDisplayName>
+        <CounterDisplayName>\Server\Pool Nonpaged Failures</CounterDisplayName>
+        <CounterDisplayName>\Server\Pool Nonpaged Peak</CounterDisplayName>
+        <CounterDisplayName>\Server\Pool Paged Bytes</CounterDisplayName>
+        <CounterDisplayName>\Server\Pool Paged Failures</CounterDisplayName>
+        <CounterDisplayName>\Server\Pool Paged Peak</CounterDisplayName>
+        <CounterDisplayName>\Server\Reconnected Durable Handles</CounterDisplayName>
+        <CounterDisplayName>\Server\Reconnected Resilient Handles</CounterDisplayName>
+        <CounterDisplayName>\Server\Server Sessions</CounterDisplayName>
+        <CounterDisplayName>\Server\Sessions Errored Out</CounterDisplayName>
+        <CounterDisplayName>\Server\Sessions Forced Off</CounterDisplayName>
+        <CounterDisplayName>\Server\Sessions Logged Off</CounterDisplayName>
+        <CounterDisplayName>\Server\Sessions Timed Out</CounterDisplayName>
+        <CounterDisplayName>\Server\SMB BranchCache Hash Bytes Sent</CounterDisplayName>
+        <CounterDisplayName>\Server\SMB BranchCache Hash Generation Requests</CounterDisplayName>
+        <CounterDisplayName>\Server\SMB BranchCache Hash Header Requests</CounterDisplayName>
+        <CounterDisplayName>\Server\SMB BranchCache Hash Requests Received</CounterDisplayName>
+        <CounterDisplayName>\Server\SMB BranchCache Hash Responses Sent</CounterDisplayName>
+        <CounterDisplayName>\Server\Total Durable Handles</CounterDisplayName>
+        <CounterDisplayName>\Server\Total Resilient Handles</CounterDisplayName>
+        <CounterDisplayName>\Server\Work Item Shortages</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <PerformanceCounterDataCollector>
+        <DataCollectorType>0</DataCollectorType>
+        <Name>Network_Analytics_Server_Performance_Monitors_Server_Work_Queues</Name>
+        <FileName>Server_Work_Queues</FileName>
+        <FileNameFormat>0x1000</FileNameFormat>
+        <FileNameFormatPattern></FileNameFormatPattern>
+        <LogAppend>0</LogAppend>
+        <LogCircular>0</LogCircular>
+        <LogOverwrite>0</LogOverwrite>
+        <LatestOutputLocation>
+        </LatestOutputLocation><DataSourceName></DataSourceName>
+        <SampleInterval>30</SampleInterval>
+        <SegmentMaxRecords>0</SegmentMaxRecords>
+        <LogFileFormat>1</LogFileFormat>
+        <Counter>\Server Work Queues(*)\Active Threads</Counter>
+        <Counter>\Server Work Queues(*)\Available Threads</Counter>
+        <Counter>\Server Work Queues(*)\Available Work Items</Counter>
+        <Counter>\Server Work Queues(*)\Borrowed Work Items</Counter>
+        <Counter>\Server Work Queues(*)\Bytes Received/sec</Counter>
+        <Counter>\Server Work Queues(*)\Bytes Sent/sec</Counter>
+        <Counter>\Server Work Queues(*)\Bytes Transferred/sec</Counter>
+        <Counter>\Server Work Queues(*)\Context Blocks Queued/sec</Counter>
+        <Counter>\Server Work Queues(*)\Current Clients</Counter>
+        <Counter>\Server Work Queues(*)\Queue Length</Counter>
+        <Counter>\Server Work Queues(*)\Read Bytes/sec</Counter>
+        <Counter>\Server Work Queues(*)\Read Operations/sec</Counter>
+        <Counter>\Server Work Queues(*)\Total Bytes/sec</Counter>
+        <Counter>\Server Work Queues(*)\Total Operations/sec</Counter>
+        <Counter>\Server Work Queues(*)\Work Item Shortages</Counter>
+        <Counter>\Server Work Queues(*)\Write Bytes/sec</Counter>
+        <Counter>\Server Work Queues(*)\Write Operations/sec</Counter>
+        <CounterDisplayName>\Server Work Queues(*)\Active Threads</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Available Threads</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Available Work Items</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Borrowed Work Items</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Bytes Received/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Bytes Sent/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Bytes Transferred/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Context Blocks Queued/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Current Clients</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Queue Length</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Read Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Read Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Total Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Total Operations/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Work Item Shortages</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Write Bytes/sec</CounterDisplayName>
+        <CounterDisplayName>\Server Work Queues(*)\Write Operations/sec</CounterDisplayName>
+    </PerformanceCounterDataCollector>
+    <Schedule></Schedule>
+    <DataManager>
+        <Enabled>0</Enabled>
+        <CheckBeforeRunning>0</CheckBeforeRunning>
+        <MinFreeDisk>0</MinFreeDisk>
+        <MaxSize>0</MaxSize>
+        <MaxFolderCount>0</MaxFolderCount>
+        <ResourcePolicy>0</ResourcePolicy>
+        <ReportFileName>report.html</ReportFileName>
+        <RuleTargetFileName>report.xml</RuleTargetFileName>
+        <EventsFileName>
+        </EventsFileName>
+    </DataManager>
+</DataCollectorSet>

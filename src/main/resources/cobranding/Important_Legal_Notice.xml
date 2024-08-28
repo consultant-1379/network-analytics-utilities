@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Important Legal Notice</title>
+ 
+    <item>
+      <title>IF YOU ARE NOT AN AUTHORIZED USER, STOP ANY ACTIVITY YOU ARE PERFORMING ON THIS SYSTEM AND EXIT IMMEDIATELY.</title>
+    </item>
+    
+    <item>
+      <title>This system is provided for authorized and official use only. The usage of this system is monitored and audited.</title>
+    </item>
+	
+	 <item>
+      <title>Unauthorized or improper usage may result in disciplinary actions, civil or criminal penalties.
+	 </title>
+     </item>	 
+	 
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library-item xmlns="http://spotfire.tibco.com/ws/2008/12/library">
+    <title>library</title>
+    <item-type>
+        <label>folder</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>true</is-container>
+    </item-type>
+    <format-version>29.2.0.40</format-version>
+    <created>2015-08-06T07:23:50.115+01:00</created>
+    <modified>2015-08-06T07:23:50.115+01:00</modified>
+    <children>
+        <library-item>
+            <id>90853c4c-b741-413e-84f7-77d88c017138</id>
+            <title>ENIQ :: Network Analytics Server</title>
+            <item-type>
+                <label>folder</label>
+                <label-prefix>spotfire</label-prefix>
+                <is-container>true</is-container>
+            </item-type>
+            <created-by>Platform</created-by>
+            <created>2015-07-27T16:40:15.000Z</created>
+            <modified-by>Platform</modified-by>
+            <modified>2015-07-27T16:40:15.000Z</modified>
+            <accessed>2015-07-27T16:40:15.000Z</accessed>
+            <properties/>
+            <keywords/>
+            <children>
+            </children>
+            <hidden>false</hidden>
+        </library-item>
+    </children>
+    <hidden>false</hidden>
+</library-item>

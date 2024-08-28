@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<platforms>
+
+   <platform-details>
+    <version>12.0.5</version>
+    <service-version>1205</service-version>
+    <current>y</current>
+    <release-type>version-change</release-type>
+   </platform-details>
+
+   <platform-details>
+    <version>12.0.3</version>
+    <service-version>1203</service-version>
+    <current>n</current>
+    <release-type>version-change</release-type>
+   </platform-details>
+   
+   <platform-details>
+    <version>12.0.1</version>
+    <service-version>1201</service-version>
+    <current>n</current>
+    <release-type>version-change</release-type>
+  </platform-details>
+   
+  <platform-details>
+    <version>11.4.5</version>
+    <service-version>1145</service-version>
+    <current>n</current>
+    <release-type>version-change</release-type>
+  </platform-details>
+
+  <platform-details>
+    <version>10.10.2</version>
+    <service-version>10102</service-version>
+    <current>n</current>
+    <release-type>version-change</release-type>
+  </platform-details>
+
+<!-- Everything that is below 10.x needs to be uninstalled with some different steps-->
+  <platform-details>
+    <version>7.11</version>
+    <service-version>7110</service-version>
+    <statistical-services-ext>711</statistical-services-ext>
+    <analystinstaller-ext>-7.11.0</analystinstaller-ext> <!-- pre 10.x, this is 'setup-7.x.x.exe'. Post 7.x, this is 'setup.exe' -->
+    <current>n</current>
+    <release-type>old</release-type>
+  </platform-details>
+
+</platforms>

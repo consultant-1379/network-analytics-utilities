@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<InstallStages>
+   <initialInstall>
+    <stages>InstallPostgres,CheckPrerequisites,DecryptNetAnServerMedia,CreateDB,InstallServerSoftware,AddCertificate $installParams.ericssonDir,ConfigureServer,ConfigureHTTPS,FQDNCheckandSwitch,InstallNodeManagerSoftware,StartNodeManager,ConfigureNodeManager,InstallLibrary,InstallAnalyst,ConfigNfsShare,updateNetAnServiceConfigurations,SetLogPermission,SetupAdhoc,addDomainToTrustedSite,updatePlatformVersion,FinalCleanup</stages>
+   </initialInstall>
+   <PreviousPlatformUpgradeToNew>
+    <stages>InstallPostgres,CheckPrerequisites,DecryptNetAnServerMedia,PMDataBackup,FQDNSwitch,StopNetAnServer $($installParams.nodeServiceNameOld),StopNetAnServer $($installParams.serviceNetAnServerOld),InstallServerSoftware,UpgradeServer,AddCertificate $installParams.ericssonDir,ConfigureServerUpgrade,ConfigureHTTPS,InstallNodeManagerSoftware,StartNodeManager,RemoveConfigNodeLogFile,ConfigureNodeManager,updateNetAnServiceConfigurations,UpdateNodemanager,InstallAnalyst,SetLogPermission,SetupAdhoc,UpdateUserPassword,PMDataRestore,addDomainToTrustedSite,DeleteExternalGroupsAndUsers,updatePlatformVersion,FinalCleanup</stages>
+   </PreviousPlatformUpgradeToNew>
+   <MinorVersionUpgrade>
+    <stages>InstallPostgres,CheckPrerequisites,DecryptNetAnServerMedia,PMDataBackup,FQDNSwitch,StopNetAnServer $($installParams.nodeServiceNameOld),StopNetAnServer $($installParams.serviceNetAnServerOld),InstallServerSoftware,UpgradeServer,AddCertificate $installParams.ericssonDir,ConfigureServerUpgrade,ConfigureHTTPS,InstallNodeManagerSoftware,StartNodeManager,RemoveConfigNodeLogFile,ConfigureNodeManager,updateNetAnServiceConfigurations,UpdateNodemanager,InstallAnalyst,SetLogPermission,SetupAdhoc,UpdateUserPassword,PMDataRestore,addDomainToTrustedSite,DeleteExternalGroupsAndUsers,updatePlatformVersion,FinalCleanup</stages>
+   </MinorVersionUpgrade>
+   <PlatformScriptUpdate>
+    <stages>updateScript,DeploymentPackageCheck,updatePlatformVersion,FinalCleanup</stages>
+   </PlatformScriptUpdate>
+   <PreviousPlatformUpgradeToNewAnsible>
+    <stages>InstallPostgres,CheckPrerequisites,PMDataBackup,FQDNSwitch,StopNetAnServer $($installParams.nodeServiceNameOld),StopNetAnServer $($installParams.serviceNetAnServerOld),InstallServerSoftware,UpgradeServer,AddCertificate $installParams.ericssonDir,ConfigureServerUpgrade,ConfigureHTTPS,InstallNodeManagerSoftware,StartNodeManager,RemoveConfigNodeLogFile,ConfigureNodeManager,updateNetAnServiceConfigurations,UpdateNodemanager,InstallAnalyst,SetLogPermission,SetupAdhoc,UpdateUserPassword,PMDataRestore,addDomainToTrustedSite,DeleteExternalGroupsAndUsers,updatePlatformVersion,FinalCleanup</stages>
+   </PreviousPlatformUpgradeToNewAnsible>
+   <MinorVersionUpgradeAnsible>
+    <stages>InstallPostgres,CheckPrerequisites,PMDataBackup,FQDNSwitch,StopNetAnServer $($installParams.nodeServiceNameOld),StopNetAnServer $($installParams.serviceNetAnServerOld),InstallServerSoftware,UpgradeServer,AddCertificate $installParams.ericssonDir,ConfigureServerUpgrade,ConfigureHTTPS,InstallNodeManagerSoftware,StartNodeManager,RemoveConfigNodeLogFile,ConfigureNodeManager,updateNetAnServiceConfigurations,UpdateNodemanager,InstallAnalyst,SetLogPermission,SetupAdhoc,UpdateUserPassword,PMDataRestore,addDomainToTrustedSite,DeleteExternalGroupsAndUsers,updatePlatformVersion,FinalCleanup</stages>
+   </MinorVersionUpgradeAnsible>
+   <PlatformScriptUpdateAnsible>
+    <stages>updateScript,DeploymentPackageCheck,updatePlatformVersion,FinalCleanup</stages>
+   </PlatformScriptUpdateAnsible>
+</InstallStages>

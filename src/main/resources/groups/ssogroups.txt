@@ -1,0 +1,10 @@
+Consumer ; SPOTFIRE ; Consumer ; ; ; ;
+Consumer ; SPOTFIRE ; ; ; Business Author ; SPOTFIRE ; group
+Consumer ; SPOTFIRE ; ; ; netan-consumer-access ; SPOTFIRE  ; group
+Administrator ; SPOTFIRE ; Administrator ; ; ; ;
+Administrator ; SPOTFIRE ; ; ; netan-server-admin-access ; SPOTFIRE  ; group
+Business Author ; SPOTFIRE ; Business Author ; ; ; ;
+Business Author ; SPOTFIRE ; ; ; Business Analyst ; SPOTFIRE ; group
+Business Author ; SPOTFIRE ; ; ; netan-business-author-access ; SPOTFIRE  ; group
+Business Analyst ; SPOTFIRE ; Business Analyst ; ; ; ;
+Business Analyst ; SPOTFIRE ; ; ; netan-business-analyst-access ; SPOTFIRE  ; group

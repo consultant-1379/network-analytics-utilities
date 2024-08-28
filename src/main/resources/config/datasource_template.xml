@@ -1,0 +1,63 @@
+<jdbc-type-settings>
+  <type-name>sybase</type-name>
+  <driver>com.sybase.jdbc4.jdbc.SybDriver</driver>
+  <connection-url-pattern>jdbc:sybase:Tds:&lt;host&gt;:2642/dwhdb?SELECT_OPENS_CURSOR=true&amp;IMPLICIT_CURSOR_FETCH_SIZE=100000</connection-url-pattern>
+  <metadata-provider>com.spotfire.ws.im.ds.sql.sybase.SybaseMetadataProvider</metadata-provider>
+  <sql-runtime>com.spotfire.ws.im.ds.sql.sybase.SybaseSQLRuntime</sql-runtime>
+  <ping-command>SELECT 1</ping-command>
+  <fetch-size>100000</fetch-size>
+  <batch-size>100</batch-size>
+  <table-types>VIEW</table-types>
+  <supports-catalogs>false</supports-catalogs>
+  <supports-schemas>false</supports-schemas>
+  <supports-procedures>true</supports-procedures>
+  <max-in-clause-size>1000</max-in-clause-size>
+  <condition-list-threshold>10000</condition-list-threshold>
+  <expand-in-clause>false</expand-in-clause>
+  <table-expression-pattern>[$$catalog$$.][$$schema$$.]$$table$$</table-expression-pattern>
+  <date-format-expression>$$value$$</date-format-expression>
+  <time-format-expression>convert(varchar(8), $$value$$, 108)</time-format-expression>
+  <date-time-format-expression>$$value$$</date-time-format-expression>
+  <java-to-sql-type-conversions>
+    <type-mapping>
+      <from max-length="8000">String</from>
+      <to>VARCHAR($$value$$)</to>
+    </type-mapping>
+    <type-mapping>
+      <from>String</from>
+      <to>VARCHAR(8000)</to>
+    </type-mapping>
+    <type-mapping>
+      <from>Integer</from>
+      <to>DECIMAL(10, 0)</to>
+    </type-mapping>
+    <type-mapping>
+      <from>Long</from>
+      <to>DECIMAL(38, 0)</to>
+    </type-mapping>
+    <type-mapping>
+      <from>Float</from>
+      <to>REAL</to>
+    </type-mapping>
+    <type-mapping>
+      <from>Double</from>
+      <to>DOUBLE PRECISION</to>
+    </type-mapping>
+    <type-mapping>
+      <from>Date</from>
+      <to>DATETIME</to>
+    </type-mapping>
+    <type-mapping>
+      <from>Time</from>
+      <to>DATETIME</to>
+    </type-mapping>
+    <type-mapping>
+      <from>DateTime</from>
+      <to>DATETIME</to>
+    </type-mapping>
+  </java-to-sql-type-conversions>
+  <temp-table-name-pattern>#$$name$$</temp-table-name-pattern>
+  <create-temp-table-command>CREATE TABLE $$name$$ $$column_list$$</create-temp-table-command>
+  <drop-temp-table-command>DROP TABLE $$name$$</drop-temp-table-command>
+  <use-ansii-style-outer-join>true</use-ansii-style-outer-join>
+</jdbc-type-settings>

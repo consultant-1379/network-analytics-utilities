@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Server port="9005" shutdown="SHUTDOWN">
+
+  <Listener className="com.spotfire.server.tomcat.StartupCheckListener" />
+
+  <Service name="Spotfire">
+	<!--
+    <Connector port="80"
+               protocol="org.apache.coyote.http11.Http11NioProtocol"
+               maxHttpHeaderSize="65536"
+               connectionTimeout="30000"
+               enableLookups="false"
+               URIEncoding="UTF-8"
+               disableUploadTimeout="true"
+               server="TIBCO Spotfire Server"
+               compression="on"
+               compressibleMimeType="text/html,text/xml,text/plain,text/css,application/json,application/javascript,image/svg+xml,application/xml"
+               acceptorThreadCount="2"
+               keepAliveTimeout="30000"
+               maxKeepAliveRequests="-1"
+               maxThreads="2000" />
+	-->
+    <!-- Please note that if you add any other attributes to this connector these will not have effect -->
+    <Connector port="9080"
+               protocol="org.apache.coyote.http11.Http11NioProtocol"
+               connectorType="registration"
+               bindOnInit="false" />
+
+    <!-- Please note that if you add any other attributes to this connector these will not have effect -->
+    <Connector port="9443"
+               protocol="org.apache.coyote.http11.Http11NioProtocol"
+               connectorType="backend"
+               bindOnInit="false" />
+
+    <!-- Enable this connector if you want to use HTTPS -->
+    
+    <Connector port="443"
+               protocol="org.apache.coyote.http11.Http11NioProtocol"	
+               maxHttpHeaderSize="65536"
+               connectionTimeout="30000"
+               enableLookups="false"
+               URIEncoding="UTF-8"
+               disableUploadTimeout="true"
+               server="TIBCO Spotfire Server"
+               compression="on"
+               compressibleMimeType="text/html,text/xml,text/plain,text/css,application/json,application/javascript,image/svg+xml,application/xml"
+               acceptorThreadCount="2"
+               keepAliveTimeout="30000"
+               maxKeepAliveRequests="-1"
+               maxThreads="2000"
+               SSLEnabled="true"
+               scheme="https"
+               secure="true">
+      <SSLHostConfig certificateVerification="none"
+                     sslProtocol="TLS"
+                     protocols="TLSv1.2+TLSv1.3"
+                     honorCipherOrder="true"
+                     ciphers="TLS_AES_128_GCM_SHA256,TLS_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256">
+        <Certificate certificateKeystoreFile="./certs/host-and-domain.p12"
+                     certificateKeystorePassword="keystorePassword"
+                     certificateKeystoreType="pkcs12" />
+      </SSLHostConfig>
+    </Connector>
+    
+
+    <Engine name="Spotfire" defaultHost="localhost" jvmRoute="hostname" >
+
+      <Host name="localhost"
+            appBase="webapps"
+            deployOnStartup="true"
+            autoDeploy="false"
+            unpackWARs="false">
+
+        <Context docBase="ROOT"
+                 path=""
+                 reloadable="false" />
+
+        <Valve className="org.apache.catalina.valves.ErrorReportValve" 
+               showReport="false" 
+               showServerInfo="false" />
+
+      </Host>
+    </Engine>
+  </Service>
+</Server>

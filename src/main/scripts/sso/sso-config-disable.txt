@@ -1,0 +1,22 @@
+set CONFIG_TOOL_PASSWORD = "config_tool_pwd"
+
+echo Set the User Directory mode to Database
+config-userdir -m database
+echo
+
+echo Set the Authentication mode to Basic
+config-auth -a BASIC -d
+echo
+
+echo Disable External Authentication
+config-external-auth -e false
+echo
+
+echo Configure the login dialog
+config-login-dialog -s always -u true -r true -R "/spotfire/Important_Legal_Notice.xml"
+echo
+
+echo Import the new configuration
+import-config -c "SSO Disabled Config" -t ${CONFIG_TOOL_PASSWORD}
+echo
+

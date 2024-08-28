@@ -1,0 +1,60 @@
+set NETAN_FQDN = "<netanserver_FQDN>"
+set AD_FQDN = "<ad_fqdn>"
+set AD_CONTEXT = "<ad_context>"
+set AD_DOMAIN = "<ad_domain_name>"
+set AD_HOSTNAME = "<ad_host_name>"
+set SERVICE_ACCOUNT = "<SSONetAnServer>"
+set ENM_LAUNCHER_FQDN = "<ENM_LAUNCHER_FQDN>"
+
+
+set SPOTFIRE_VERSION = "spotfire_ver"
+set CONFIG_TOOL_PASSWORD = "config_tool_pwd"
+set SERVICE_ACCOUNT_PWD = "service_acc_pwd"
+set NETAN_SERVER_PATH = "C:\Ericsson\NetAnServer\Server\" 
+
+echo Configure Kerberos Authentication
+config-kerberos-auth -k ${NETAN_SERVER_PATH}${SPOTFIRE_VERSION}\tomcat\spotfire-config\spotfire.keytab -p HTTP/${NETAN_FQDN}
+echo
+
+echo Set Kerberos Authentication
+config-auth -a kerberos
+echo
+
+echo Create LDAP config
+create-ldap-config --id="LDAP Configuration" --type="ActiveDirectory" --user-name-attribute=cn --schedules="@restart, @hourly, 10 * * * *, 20 * * * *, 30 * * * *, 40 * * * *, 50 * * * *" --servers="ldap://${AD_FQDN}" --context-names="${AD_CONTEXT}" --username="${SERVICE_ACCOUNT}@${AD_DOMAIN}" --password="${SERVICE_ACCOUNT_PWD}"
+echo
+
+echo Configure LDAP as the User Directory
+config-ldap-userdir -l "LDAP Configuration"
+echo
+
+echo Update the user directory
+config-userdir -m ldap -C true -S true
+echo
+
+echo Update the Group Sync attributes
+config-ldap-group-sync --id="LDAP Configuration" --filter-users-by-groups=true --group-name-attribute=cn
+echo
+
+echo Add groups
+config-ldap-group-sync --id="LDAP Configuration" --group-names='CN=netan-consumer-access,${AD_CONTEXT}'
+config-ldap-group-sync --id="LDAP Configuration" --group-names='CN=netan-business-author-access,${AD_CONTEXT}'
+config-ldap-group-sync --id="LDAP Configuration" --group-names='CN=netan-business-analyst-access,${AD_CONTEXT}'
+config-ldap-group-sync --id="LDAP Configuration" --group-names='CN=netan-server-admin-access,${AD_CONTEXT}'
+echo
+
+echo Disable CSRF
+config-csrf-protection --enabled=false
+echo
+
+echo Configure log on Dialog
+config-login-dialog -s always -u false -r false
+echo
+
+echo Configure External Authentication
+config-external-auth -e true -s true -n filter.AuthenticationFilter -IDOMAIN_CONTROLLER_NAME='${SERVICE_ACCOUNT}@${AD_DOMAIN}' -IDOMAIN_CONTROLLER_PASSWORD='${SERVICE_ACCOUNT_PWD}' -ILDAP_URL='ldap://${AD_FQDN}' -IDOMAIN_NAME='${AD_DOMAIN}' -ISEARCH_BASE="'${AD_CONTEXT}'" -IENM_SERVER_NAME='${ENM_LAUNCHER_FQDN}'
+echo
+
+echo Import the new configuration
+import-config -c "SSO Enabled Config" -t "${CONFIG_TOOL_PASSWORD}"
+echo

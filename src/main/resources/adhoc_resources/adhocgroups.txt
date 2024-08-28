@@ -1,0 +1,9 @@
+Consumer ; SPOTFIRE ; Consumer ;  ; ; ;
+Consumer ; SPOTFIRE ;  ;  ; Business Author ; SPOTFIRE ; group
+Custom Query Author ; SPOTFIRE ; Custom Query Author ;  ; ; ;
+Custom Query Author ; SPOTFIRE ;  ;  ; Business Analyst ; SPOTFIRE ; group
+Business Author ; SPOTFIRE ; Business Author ;  ; ; ;
+Business Author ; SPOTFIRE ;  ;  ; Business Analyst ; SPOTFIRE ; group
+Business Analyst ; SPOTFIRE ; Business Analyst ;  ; ; ;
+Script Author ; SPOTFIRE ; Script Author ;  ; ; ;
+Script Author ; SPOTFIRE ;  ;  ; Business Author ; SPOTFIRE ; group
